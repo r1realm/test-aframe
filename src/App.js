@@ -1,15 +1,14 @@
 import 'aframe';
 import 'aframe-particle-system-component';
 import {Entity, Scene} from 'aframe-react'
-import Mundo from './components/Mundo';
+import Room from './components/Room';
 
 function App() {
   return (
     <Scene>
-      <Mundo />
-
-      <Entity light={{type: 'point'}}/>
-      <Entity geometry={{primitive:'box'}} material={{color:'red'}} position={{x:0, y:0, z:-5}}/>
+      <Room />
+      <Entity light={{type: 'point'}} position={{x: -0.270, y: 2.147, z: -1.108}}/>
+      
     </Scene>
   );
 }

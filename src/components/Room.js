@@ -1,7 +1,7 @@
 import React from 'react';
 import { Entity } from 'aframe-react';
 
-function Mundo() {
+function Room() {
 
     const AFRAME = window.AFRAME
 
@@ -24,15 +24,12 @@ function Mundo() {
     return (
         <>
             <a-assets>
-                <a-asset-item id='cozy_room' src='../Modelos3d/bg_cozy_room/scene.gltf'/>
+                <a-asset-item id='cozy_room' src='./Modelos3d/bg_cozy_room/scene.gltf'></a-asset-item>
             </a-assets>
             
             <Entity gltf-model='#cozy_room' modify-materials/>
-
-
-            <Entity geometry={{primitive:'box'}} material={{color:'green'}} position={{x:0, y:3, z:-5}}/>
         </>
     )
 }
 
-export default Mundo 
+export default Room 
