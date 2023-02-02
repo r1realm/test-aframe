@@ -24,10 +24,10 @@ function Mundo() {
     return (
         <>
             <a-assets>
-                <a-asset-item id='cola' src='./3Dmodels/Can/scene.gltf'/>
+                <a-asset-item id='cozy_room' src='../Modelos3d/bg_cozy_room/scene.gltf'/>
             </a-assets>
             
-            <Entity gltf-model='#cola' position='0 1.41152 -5' scale='0.01 0.01 0.01' />
+            <Entity gltf-model='#cozy_room' modify-materials/>
 
 
             <Entity geometry={{primitive:'box'}} material={{color:'green'}} position={{x:0, y:3, z:-5}}/>
