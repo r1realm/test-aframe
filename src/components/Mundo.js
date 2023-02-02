@@ -11,7 +11,10 @@ function Mundo() {
             id="menty" 
             geometry={{primitive: 'box'}} 
             material={{color: 'lightgreen'}} 
-            position={{x: 0, y: 0, z: -5}}/>
+            position={{x: 0, y: 0, z: -5}}
+            rotation={{x: 0, y: 50, z: 0}}
+            scale={{x: 2, y: 5, z:2}}
+            />
         </Scene>
     )
 }
