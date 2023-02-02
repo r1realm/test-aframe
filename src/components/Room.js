@@ -24,7 +24,7 @@ function Room() {
     return (
         <>
             <a-assets>
-                <a-asset-item id='cozy_room' src='./Modelos3d/bg_cozy_room/scene.gltf'></a-asset-item>
+                <a-asset-item id='cozy_room' src='./assets/bg_cozy_room/scene.glft'></a-asset-item>
             </a-assets>
             
             <Entity gltf-model='#cozy_room' modify-materials/>

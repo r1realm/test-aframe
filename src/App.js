@@ -7,6 +7,8 @@ function App() {
   return (
     <Scene>
       <Room />
+
+      
       <Entity light={{type: 'point'}} position={{x: -0.270, y: 2.147, z: -1.108}}/>
       
     </Scene>
