@@ -1,5 +1,5 @@
-import React from 'react'
-import { Entity } from 'aframe-react'
+import React from 'react';
+import { Entity } from 'aframe-react';
 
 function Amongus() {
   return (
@@ -13,4 +13,4 @@ function Amongus() {
   )
 }
 
-export default Amongus
+export default Amongus;
