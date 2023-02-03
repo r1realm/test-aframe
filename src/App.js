@@ -8,11 +8,14 @@ import Sanrio from './components/Sanrio';
 import Anime from './components/Anime';
 import BananaCat from './components/BananaCat';
 import Books from './components/Books';
+import Controls from './components/Controls';
+import './app.css'
 
 function App() {
   return (
     <Scene>
       <Room />
+      <Controls/>
         <Shelves />
             <Amongus />
             <Sanrio />
