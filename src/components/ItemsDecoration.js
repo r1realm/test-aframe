@@ -16,9 +16,9 @@ const itemDecoration = [
     {
         id: 'books',
         ruta: './assets/items/item_books/scene.gltf',
-        position: '-2.801 0.713 2.077',
-        scale: '-0.008 0.005 0.008',
-        rotation: '0 90 0',
+        position: '-2.508 1.71 1.859',
+        scale: '0.09 0.1 0.08',
+        rotation: '-0 90 90',
     },
     {
         id: 'cocacola',
@@ -51,9 +51,9 @@ const itemDecoration = [
     {
         id: 'capi',
         ruta: './assets/items/item_capi/scene.gltf',
-        position: '-2.801 0.713 2.077',
-        scale: '-0.008 0.005 0.008',
-        rotation: '0 90 0',
+        position: '2.029 1.359 -2.298',
+        scale: '0.55 0.55 0.55',
+        rotation: '0.550 0.550 0.550',
     },
     {
         id: 'chair',

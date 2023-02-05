@@ -4,8 +4,8 @@ const Items = [
         id: 'higoku',
         price: 15,
         ruta: './assets/anime/anime_higokumaru/scene.gltf',
-        position: '-2.77538 1.36288 2.623',
-        scale: '0.028 0.03 0.028',
+        position: '-2.775 1.363 2.691',
+        scale: '0.032 0.032 0.032',
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
