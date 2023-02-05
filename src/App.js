@@ -13,15 +13,12 @@ function App() {
     <Scene>
       <Room />
       <Controls/>
+
         <ListItems/>
         <ListDecoration/>
+    
       <Entity light={{type: 'point'}} position={{x: -0.270, y: 2.147, z: -1.108}}/>
-      <a-entity 
-          position= '0.250 0.512 2.557'
-          scale=  '1 1 1'
-          rotation= '0 90 0'>
-        <a-camera ></a-camera>
-      </a-entity>
+      
     </Scene>
   );
 }
