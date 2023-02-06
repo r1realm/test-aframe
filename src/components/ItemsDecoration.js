@@ -6,7 +6,7 @@ const itemDecoration = [
         scale: '-0.007 0.006 0.007',
         rotation: '0 90 0',
     },
-    {
+    /*{
         id: 'banana_cat',
         ruta: './assets/items/item_banana_cat/scene.gltf',
         position: '-2.801 0.713 2.077',
@@ -26,7 +26,7 @@ const itemDecoration = [
         position: '-2.801 0.713 2.077',
         scale: '-0.008 0.005 0.008',
         rotation: '0 90 0',
-    },
+    },*/
     {
         id: 'desk',
         ruta: './assets/items/item_desk/scene.gltf',
@@ -55,7 +55,7 @@ const itemDecoration = [
         scale: '0.55 0.55 0.55',
         rotation: '0.550 0.550 0.550',
     },
-    {
+    /*{
         id: 'chair',
         ruta: './assets/items/item_chair/scene.gltf',
         position: '0.924 -0.112 2.655',
@@ -96,7 +96,7 @@ const itemDecoration = [
         position: '2.538 2.473 4.066',
         scale: '0.015 0.015 0.015',
         rotation: '90 -0.1 90',
-    },
+    },*/
     {
         id: 'tv',
         ruta: './assets/items/item_tv/scene.gltf',
@@ -104,13 +104,13 @@ const itemDecoration = [
         scale: '1.3 1.3 1.3',
         rotation: '0 -90 0',
     },
-    {
+    /*{
         id: 'milka',
         ruta: './assets/items/item_milka/scene.gltf',
         position: '-1.163 0.354 -0.174',
         scale: '0.055 0.13 0.055  ',
         rotation: '0 0 0',
-    }
+    }*/
 ]
 
 export default itemDecoration
