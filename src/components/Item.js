@@ -8,19 +8,19 @@ function Item({data}){
     return (
         <>
         <Entity
-      id = {data.id}
-      gltf-model = {data.ruta}
-      position = {data.position}
-      scale = {data.scale}
-      rotation = {data.rotation}
-      ></Entity>
-        
-       {
-       open?<Entity  ></Entity>:<></>
-       }
-      
-     
-      
+          id={data.id}
+          gltf-model={data.ruta}
+          position={data.position}
+          scale={data.scale}
+          rotation={data.rotation}
+        ></Entity>
+
+        {
+          open ? <Entity  ></Entity> : <></>
+        }
+
+
+
       </>
     )
 }
