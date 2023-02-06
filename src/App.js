@@ -1,28 +1,21 @@
 import 'aframe';
 import 'aframe-particle-system-component';
 import {Entity, Scene} from 'aframe-react'
-import Amongus from './components/Amongus';
 import Room from './components/Room';
-import Shelves from './components/Shelves';
-import Sanrio from './components/Sanrio';
-import Anime from './components/Anime';
-import BananaCat from './components/BananaCat';
-import Books from './components/Books';
 import Controls from './components/Controls';
+import ListItems from './components/ListItems';
+import ListDecoration from './components/ListDecoration';
 import './app.css'
+
 
 function App() {
   return (
     <Scene>
       <Room />
       <Controls/>
-        <Shelves />
-            <Amongus />
-            <Sanrio />
-            <Anime />
-            <BananaCat/>
-            <Books/>
-            
+      
+        <ListItems/>
+        <ListDecoration/>
     
       <Entity light={{type: 'point'}} position={{x: -0.270, y: 2.147, z: -1.108}}/>
       
