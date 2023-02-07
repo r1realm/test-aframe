@@ -48,3 +48,7 @@ If people like your project they’ll want to learn how they can use it. To do s
 The first and foremost credit we would like to give is to our instructor Carlos, who not only was there for us to help in this project but also believed that we could make it this far. Also, Factoria F5 community, for providing us this safe space to learn and grow as a person and in the profession that we are diving into.
 
 ### License
+
+[![Proyecto](https://img.shields.io/badge/Proyecto-yellow)](https://github.com)
+[![IDE Visual](https://img.shields.io/badge/IDE-red)](https://github.com)
+
