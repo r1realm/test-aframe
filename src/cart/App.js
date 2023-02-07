@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import data from "./data";
+// import data from "./data"; This is ItemInfo
+import data from "../components/ItemsInfo";
+
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Basket from "./components/Basket";
@@ -40,10 +42,12 @@ function App() {
       );
     }
   };
+  //onRemove function has it substracting function of each added items.
+
   return (
     <div>
       <Header countCartItems={cartItems.length} />
-      <div className="row">
+      <div>
         <Main products={products} onAdd={onAdd} />
         <Basket
           cartItems={cartItems}
