@@ -9,7 +9,7 @@ const Items = [
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
-    /*{
+    {
         name: 'Magician',
         id: 'magician',
         price: 15,
@@ -30,6 +30,16 @@ const Items = [
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
     {
+        name: 'Among us',
+        id: 'amongus',
+        price: 16.50,
+        ruta: './assets/items/item_amongus/scene.gltf',
+        position: '-2.801 0.69 2.077',
+        scale: '-0.007 0.006 0.007',
+        rotation: '0 90 0',
+        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
+    },
+    {
         name: 'Cinamonroll',
         id: 'cinamon',
         price: 14.99,
@@ -39,6 +49,7 @@ const Items = [
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
+    /*
     {
         name: 'Deadpool',
         id: 'deadpool',
@@ -78,7 +89,7 @@ const Items = [
         scale: '0.017 0.017 0.017',
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
+    },*/
     {
         name: 'Lucario',
         id: 'lucario',
@@ -99,6 +110,7 @@ const Items = [
         rotation: '0 0 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
+    /*
     {
         name: 'Master cap',
         id: 'master_cap',

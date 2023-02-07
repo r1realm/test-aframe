@@ -14,13 +14,9 @@ function Item({data}){
           scale={data.scale}
           rotation={data.rotation}
         ></Entity>
-
         {
           open ? <Entity  ></Entity> : <></>
         }
-
-
-
       </>
     )
 }

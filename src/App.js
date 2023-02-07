@@ -1,5 +1,4 @@
 import 'aframe';
-import 'aframe-particle-system-component';
 import {Entity, Scene} from 'aframe-react'
 import Room from './components/Room';
 import Controls from './components/Controls';
@@ -11,20 +10,12 @@ import Item from './components/Item';
 
 function App() {
   return (
-    <Scene>
+    <Scene background="color: black">
       <Room />
-      
-
         <ListItems/>
         <ListDecoration/>
-
-
-
-      <Item/>
-
-
-
-
+        
+      {/* <Item/> */}
       <Entity light={{type: 'point'}} position={{x: -0.270, y: 2.147, z: -1.108}}/>
 
       <Entity id="shelvesCam" position="-0.29 -0.20012 2.883" rotation="0 90 0">

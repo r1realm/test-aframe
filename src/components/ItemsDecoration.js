@@ -1,11 +1,4 @@
 const itemDecoration = [
-    {
-        id: 'amongus',
-        ruta: './assets/items/item_amongus/scene.gltf',
-        position: '-2.801 0.69 2.077',
-        scale: '-0.007 0.006 0.007',
-        rotation: '0 90 0',
-    },
     /*{
         id: 'banana_cat',
         ruta: './assets/items/item_banana_cat/scene.gltf',
@@ -30,8 +23,8 @@ const itemDecoration = [
     {
         id: 'desk',
         ruta: './assets/items/item_desk/scene.gltf',
-        position: '-0.715 -0.27 6.264',
-        scale: '0.5 0.5 0.5',
+        position: '0.2606 -0.157 6.26885',
+        scale: '0.39 0.373 0.33135',
         rotation: '0 -90.275 0',
     },
     {
@@ -44,14 +37,14 @@ const itemDecoration = [
     {
         id: 'stand',
         ruta: './assets/furniture/furniture_stand/scene.gltf',
-        position: '2.101 0.159 -0.888',
-        scale: '2.122 1.215 1.468',
+        position: '2.101 0.07118 -0.8888',
+        scale: '2.122 0.91337 1.468',
         rotation: '0 270 0',
     },
     {
         id: 'capi',
         ruta: './assets/items/item_capi/scene.gltf',
-        position: '2.029 1.359 -2.298',
+        position: '2.03211 1.03192 -2.30117',
         scale: '0.55 0.55 0.55',
         rotation: '0.550 0.550 0.550',
     },
@@ -100,8 +93,8 @@ const itemDecoration = [
     {
         id: 'tv',
         ruta: './assets/items/item_tv/scene.gltf',
-        position: '2.083 1.896 -0.736',
-        scale: '1.3 1.3 1.3',
+        position: '2.083 1.41621 -0.736',
+        scale: '1.13384 1.06709 1.3',
         rotation: '0 -90 0',
     },
     /*{
