@@ -1,8 +1,6 @@
 # 3D e-Commerce React App
 
 This project is written with [Create React App](https://github.com/facebook/create-react-app) in integration with [A-Frame](https://aframe.io/) to build a 3D e-Commerce website where by using Oculus VR, user can interact with the products that are on sale and add them to cart. 
-[![Proyecto](https://img.shields.io/badge/Proyecto-yellow)](https://github.com)
-[![IDE Visual](https://img.shields.io/badge/IDE-red)](https://github.com)
 
 ## Motivation 
 
