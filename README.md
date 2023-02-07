@@ -2,28 +2,49 @@
 
 This project is written with [Create React App](https://github.com/facebook/create-react-app) in integration with [A-Frame](https://aframe.io/) to build a 3D e-Commerce website where by using Oculus VR, user can interact with the products that are on sale and add them to cart. 
 
-# Motivation 
+## Motivation 
 
 This is the final project of our intensive Front-End Bootcamp (Factoria F5) where as aspiring Full-Stack developers, we are trying to build a 3D e-commerce website. In this project, we have put into practise all the new methods, concepts and ideas learnt within these 3 months. 
 
-## Available Scripts
+## Build status
+Build status of continus integration i.e. travis, appveyor etc. Ex. -
 
-In the project directory, you need to run some Local Installation:
-
-### `$ npm install aframe`
+### Code style
 
 
-### `$ npm start`
+### Tech/framework used
+React, A-Frame
+
+### Features
+What makes your project stand out?
+
+### Installation
+
+To get started, in the project directory, you need to run some Local Installation:
+
+`$ npm install --save aframe aframe-react react react-dom`
+`$ npm install aframe-particle-system-component`
+These installations will help build virtual reality experiences with A-Frame and React.
+
+`$ npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-### `npm test`
+
+`npm test`
 
 Launches the test runner in the interactive watch mode.\
 
+### API Reference
+
+
+### How to use?
+If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
 ### Contribute
 
 
 ### Credits
-The first and foremost credit we would like to give is to our instructor Carlos, who not only was there for us to help in this project but also believed that we could make it this far. Also, Factoria F5 community, for providing us this safe space to learn and grow as a person and in the profession that we are diving into. And special thanks to Lola, for her motivating words and the push she gave in order for us not to give up in the end. 
+The first and foremost credit we would like to give is to our instructor Carlos, who not only was there for us to help in this project but also believed that we could make it this far. Also, Factoria F5 community, for providing us this safe space to learn and grow as a person and in the profession that we are diving into.
+
+### License
