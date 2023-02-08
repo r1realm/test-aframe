@@ -5,7 +5,7 @@ import Controls from './components/Controls';
 import ListItems from './components/ListItems';
 import ListDecoration from './components/ListDecoration';
 import './app.css'
-import Item from './components/Item';
+// import Item from './components/Item';
 
 
 function App() {
