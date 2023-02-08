@@ -9,7 +9,7 @@ const Items = [
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
-    /*{
+    {
         name: 'Magician',
         id: 'magician',
         price: 15,
@@ -148,7 +148,7 @@ const Items = [
         scale: '0.34 0.34 0.34',
         rotation: '0 -130 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    }*/
+    }
 ]
 
 export default Items
