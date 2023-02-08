@@ -23,8 +23,10 @@ What makes your project stand out?
 To get started, in the project directory, you need to run some Local Installation:
 
 `$ npm install --save aframe aframe-react react react-dom`
+> To install the aframe, aframe-react and react-dom.
+
 `$ npm install aframe-particle-system-component`
-These installations will help build virtual reality experiences with A-Frame and React.
+> These installations will help build virtual reality experiences with A-Frame and React.
 
 `$ npm start`
 
