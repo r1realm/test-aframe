@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ItemsInfo from './ItemsInfo'
+import ItemsInfo from '../data/ItemsInfo'
 import Item from './Item'
 
 

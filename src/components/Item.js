@@ -7,6 +7,7 @@ import BuyMenu from "./BuyMenu"
 
 
 function Item({data, selected, setSelected}){
+
     let scale = data.scale
 
     const normalizedString = (obj) => {

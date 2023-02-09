@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemsDecoration from './ItemsDecoration'
+import ItemsDecoration from '../data/ItemsDecoration'
 import { Entity } from 'aframe-react'
 
 function ListDecoration() {
