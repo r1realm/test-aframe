@@ -7,9 +7,7 @@ This project is written with [Create React App](https://github.com/facebook/crea
 This is the final project of our intensive Front-End Bootcamp (Factoria F5) where as aspiring Full-Stack developers, we are trying to build a 3D e-commerce website. In this project, we have put into practise all the new methods, concepts and ideas learnt within these 3 months. 
 
 ## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. -
-
-### Code style
+Build status of continus integration i.e. travis, appveyor etc. Ex. 
 
 
 ### Tech/framework used
@@ -30,6 +28,12 @@ To get started, in the project directory, you need to run some Local Installatio
 
 `$ npm start`
 > Runs the app in the development mode.\ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+`$ npm install super-hands`
+> To install the movement effect within the scene.
+
+`$ npm install aframe-event-set-component`
+> To install the interactions within 3D scene.
 
 ### How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
