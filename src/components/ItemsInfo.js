@@ -1,5 +1,5 @@
 const Items = [
-    {
+    /*{
         name: 'Higoku',
         id: 'higoku',
         price: 15,
@@ -8,7 +8,7 @@ const Items = [
         scale: "0.032 0.032 0.032",
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
+    },*/
     {
         name: 'Magician',
         id: 'magician',
@@ -17,7 +17,7 @@ const Items = [
         position: "-2.52518 1.03336 3.15769",
         scale:"0.08 0.08 0.08" ,
         rotation: '0 90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
+        data: 'Lorem Ipsum is simply dummy text of the printing and'
     },
     {
         name: 'Kuromi',
@@ -27,7 +27,7 @@ const Items = [
         position: "-2.53924 2.29183 3.42036",
         scale: "0.08 0.08 0.08",
         rotation: '0 90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
+        data: 'Lorem Ipsum is simply dummy text of the printing and'
     },
     {
         name: 'Among us',
@@ -37,8 +37,7 @@ const Items = [
         position: '-2.68381 2.11651 2.32726',
         scale: '-0.007 0.006 0.007',
         rotation: '0 90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
+        data: 'Lorem Ipsum is simply dummy text of the printing and'    },
     {
         name: 'Cinamonroll',
         id: 'cinamon',
@@ -47,9 +46,8 @@ const Items = [
         position: "-2.59374 2.19541 2.92162",
         scale:"0.07 0.07 0.07",
         rotation: '0 90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
-    {
+     data: 'Lorem Ipsum is simply dummy text of the printing and'    },
+    /*{
         name: 'Lucario',
         id: 'lucario',
         price: 40,
@@ -59,7 +57,7 @@ const Items = [
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
     },
-    {
+    /*{
         name: 'Lugia',
         id: 'lugia',
         price: 100,
@@ -87,8 +85,7 @@ const Items = [
         position: "-2.65209 1.42373 2.60373",
         scale: '0.009 0.009 0.009',
         rotation: '0 90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
+  data: 'Lorem Ipsum is simply dummy text of the printing and'    },
     {
         name: 'Pokeball',
         id: 'pokeball',
@@ -97,8 +94,7 @@ const Items = [
         position: "-2.4859 0.81166 2.57709",
         scale: '0.05 0.05 0.05',
         rotation: '0 90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
+  data: 'Lorem Ipsum is simply dummy text of the printing and'    },
     {
         name: 'Poliwhirl',
         id: 'poliwhirl',
@@ -107,8 +103,7 @@ const Items = [
         position:"-2.69837 0.73648 2.6817",
         scale: '0.12 0.12 0.12',
         rotation: '0 -90 0',
-        data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
-    },
+  data: 'Lorem Ipsum is simply dummy text of the printing and'    },
     /*{
         name: 'Sudowoodo',
         id: 'sudowoodo',

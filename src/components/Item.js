@@ -71,16 +71,16 @@ function Item({data, selected, setSelected}){
       id='title'
       value= {data.name}
       rotation= '0 90 0'
-      position='-2.468 1.769 1.731'
-      scale='0.4 0.4 0.4'
+      position="-2.458 1.688 1.12476" 
+      scale="0.4 0.4 0.4" 
     
       />
  
       <a-text
       id='price'
-      value={data.price}
+      value={data.price} 
       rotation='0 90 0'
-      position='-2.468 1.766 1.197'
+      position="-2.458 1.399 0.639" 
       scale='0.4 0.4 0.4'
       />
 
@@ -88,9 +88,9 @@ function Item({data, selected, setSelected}){
       id='data'
       value={data.data}
       rotation='0 90 0'
-      position='-2.468 1.639 1.728'
+      position='-2.458 1.56663 1.12476' 
       scale='0.4 0.4 0.4'
-      />
+      width= " 2.42"      />
       </>
       ) : ('')}
       </>
