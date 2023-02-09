@@ -1,71 +1,47 @@
-# Getting Started with Create React App
+# 3D e-Commerce React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is written with [Create React App](https://github.com/facebook/create-react-app) in integration with [A-Frame](https://aframe.io/) to build a 3D e-Commerce website where by using Oculus VR, user can interact with the products that are on sale and add them to cart. 
 
-## Available Scripts
+## Motivation 
 
-In the project directory, you can run:
+This is the final project of our intensive Front-End Bootcamp (Factoria F5) where as aspiring Full-Stack developers, we are trying to build a 3D e-commerce website. In this project, we have put into practise all the new methods, concepts and ideas learnt within these 3 months. 
 
-### `npm start`
+## Build status
+Build status of continus integration i.e. travis, appveyor etc. Ex. -
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Code style
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Tech/framework used
+React, A-Frame
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
+The aim of this project was to create an immerisve 3D e-commerce web. We used React and A-Frame models build the project which was challenging enough to implement (code-wise speaking) because the A-Frame model is written in pure HTML syntax and not in React.  
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started, in the project directory, you need to run some Local Installation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`$ npm install --save aframe aframe-react react react-dom`
+> To install the aframe, aframe-react and react-dom.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`$ npm install aframe-particle-system-component`
+> These installations will help build virtual reality experiences with A-Frame and React.
 
-### `npm run eject`
+`$ npm start`
+> Runs the app in the development mode.\ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### How to use?
+If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contribute
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Credits
+The first and foremost credit we would like to give is to our instructor Carlos, who not only was there for us to help in this project but also believed that we could make it this far. Also, Factoria F5 community, for providing us this safe space to learn and grow as a person and in the profession that we are diving into.
 
-## Learn More
+### License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![Proyecto](https://img.shields.io/badge/Proyecto-yellow)](https://github.com)
+[![IDE Visual](https://img.shields.io/badge/IDE-red)](https://github.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# test-aframe
