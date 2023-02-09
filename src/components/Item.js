@@ -3,6 +3,7 @@ import { Entity } from "aframe-react"
 import 'aframe'
 import 'aframe-event-set-component'
 import MenuChart from "./MenuChart"
+import BuyMenu from "./BuyMenu"
 
 
 function Item({data, selected, setSelected}){
@@ -64,6 +65,7 @@ function Item({data, selected, setSelected}){
 
 
       <MenuChart isOpen={isOpen} data={data}/>
+      <BuyMenu isOpen={isOpen}/>
 
       { selected === data.id ? (
         <>
@@ -80,7 +82,7 @@ function Item({data, selected, setSelected}){
       id='price'
       value={data.price} 
       rotation='0 90 0'
-      position="-2.458 1.399 0.639" 
+      position="-2.458 1.399 0.7" 
       scale='0.4 0.4 0.4'
       />
 

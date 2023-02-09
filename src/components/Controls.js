@@ -5,7 +5,7 @@ function Controls() {
   return (
     <>
         <a-entity laser-controls="hand: right" raycaster="far: 2"></a-entity>
-        <a-entity laser-controls="hand: left" raycaster="far: 2"> </a-entity> 
+        {/* <a-entity laser-controls="hand: left" raycaster="far: 2"> </a-entity>  */}
     </>
   )
 }
