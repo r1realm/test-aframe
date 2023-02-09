@@ -14,13 +14,6 @@ const itemDecoration = [
         rotation:"0.23 -132.27 -0.59",
     },
     {
-        id: 'amongus',
-        ruta: './assets/items/item_amongus/scene.gltf',
-        position: "-2.68381 2.11651 2.32726",
-        scale: "-0.007 0.006 0.007",
-        rotation: '0 90 0',
-    },
-    {
         id: 'banana_cat',
         ruta: './assets/items/item_banana_cat/scene.gltf',
         position: '-2.801 0.713 2.077',

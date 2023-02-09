@@ -1,5 +1,5 @@
 import 'aframe';
-import {Scene} from 'aframe-react'
+import {Scene, Entity} from 'aframe-react'
 import Room from './components/Room';
 import Controls from './components/Controls';
 import ListItems from './components/ListItems';
@@ -12,10 +12,14 @@ function App() {
   return (
     <Scene background="color: black">
       <Room />
-      <Controls/>
         <ListItems/>
         <ListDecoration/>
         <Ligths />
+
+      <Entity id="shelvesCam" position="-0.29 -0.20012 2.883" rotation="0 90 0">
+        <a-camera id="camera"></a-camera>
+        <Controls/>
+      </Entity>
     </Scene>
   );
 }

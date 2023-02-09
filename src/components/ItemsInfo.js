@@ -34,7 +34,7 @@ const Items = [
         id: 'amongus',
         price: 16.50,
         ruta: './assets/items/item_amongus/scene.gltf',
-        position: '-2.801 0.69 2.077',
+        position: '-2.68381 2.11651 2.32726',
         scale: '-0.007 0.006 0.007',
         rotation: '0 90 0',
         data: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu'
