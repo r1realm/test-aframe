@@ -5,7 +5,7 @@ import 'aframe-event-set-component'
 import MenuChart from "./MenuChart"
 
 
-function Item({data}){
+function Item({data, selected, setSelected}){
     let scale = data.scale
 
     const normalizedString = (obj) => {
@@ -35,9 +35,13 @@ function Item({data}){
     let newScale = normalizedString(scale)
     let transformedData = transformScale(newScale, 1.05, 1.05, 1.05)
     let dataToString = Object.values(transformedData).join(' ')
-
-    const [isOpen, setIsOpen] = useState('true')
-
+    
+    const [isOpen, setIsOpen] = useState(false)
+   
+      const handleClick = () => {
+        setIsOpen(!isOpen);
+        setSelected(data.id)
+  };
     return (
       <>
       <Entity
@@ -48,15 +52,47 @@ function Item({data}){
         rotation={data.rotation} 
         event-set__mouseenter={`_event: mouseenter; scale: ${dataToString}`}
         event-set__mouseleave={`_event: mouseleave; scale: ${scale}`}
-        // event-set__click={`_event: click; _target: #plane; visible: ${isOpen}`}
+        events={{
+          click: () => handleClick(),
+      }}
+  />
+        {/* // event-set__click={`_event: click; _target: #plane; visible: '${isOpen}'`}
+        // event-set__click1={`_event: click; _target: #addBtn; visible: '${isOpen}'`}
+        // event-set__click2={`_event: click; _target: #removeBtn; visible: '${isOpen}'`}
+        // event-set__click3={`_event: click; _target: #chartBtn; visible: '${isOpen}'`}
+      /> */}
 
-        // event-set__click='_event: click; _target: #plane; visible: true'
-        // event-set__click1='_event: click; _target: #addBtn; visible: true'
-        // event-set__click2='_event: click; _target: #removeBtn; visible: true'
-        // event-set__click3='_event: click; _target: #chartBtn; visible: true'
+
+      <MenuChart isOpen={isOpen} data={data}/>
+
+      { selected === data.id ? (
+        <>
+      <a-text
+      id='title'
+      value= {data.name}
+      rotation= '0 90 0'
+      position='-2.468 1.769 1.731'
+      scale='0.4 0.4 0.4'
+    
       />
-      {/* <MenuChart isOpen={isOpen}/> */}
-      <MenuChart data={data} />
+ 
+      <a-text
+      id='price'
+      value={data.price}
+      rotation='0 90 0'
+      position='-2.468 1.766 1.197'
+      scale='0.4 0.4 0.4'
+      />
+
+      <a-text
+      id='data'
+      value={data.data}
+      rotation='0 90 0'
+      position='-2.468 1.639 1.728'
+      scale='0.4 0.4 0.4'
+      />
+      </>
+      ) : ('')}
       </>
     )
 }
