@@ -16,7 +16,7 @@ Build status of continus integration i.e. travis, appveyor etc. Ex. -
 React, A-Frame
 
 ### Features
-What makes your project stand out?
+The aim of this project was to create an immerisve 3D e-commerce web. We used React and A-Frame models build the project which was challenging enough to implement (code-wise speaking) because the A-Frame model is written in pure HTML syntax and not in React.  
 
 ### Installation
 
@@ -29,11 +29,7 @@ To get started, in the project directory, you need to run some Local Installatio
 > These installations will help build virtual reality experiences with A-Frame and React.
 
 `$ npm start`
-
 > Runs the app in the development mode.\ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### API Reference
-
 
 ### How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
