@@ -13,27 +13,27 @@ const itemDecoration = [
         scale:"0.19 0.23 0.24"   ,
         rotation:"0.23 -132.27 -0.59",
     },
-    {
-        id: 'banana_cat',
-        ruta: './assets/items/item_banana_cat/scene.gltf',
-        position: '-2.801 0.713 2.077',
-        scale: '-0.008 0.005 0.008',
-        rotation: '0 90 0',
-    },
-    {
-        id: 'books',
-        ruta: './assets/items/item_books/scene.gltf',
-        position: "-2.43157 1.06557 1.859" ,
-        scale: '0.09 0.1 0.08',
-        rotation: '-0 90 90',
-    },
-    {
-        id: 'cocacola',
-        ruta: './assets/items/item_cocacola/scene.gltf',
-        position: '-2.801 0.713 2.077',
-        scale: '-0.008 0.005 0.008',
-        rotation: '0 90 0',
-    },
+    // {
+    //     id: 'banana_cat',
+    //     ruta: './assets/items/item_banana_cat/scene.gltf',
+    //     position: '-2.801 0.713 2.077',
+    //     scale: '-0.008 0.005 0.008',
+    //     rotation: '0 90 0',
+    // },
+    // {
+    //     id: 'books',
+    //     ruta: './assets/items/item_books/scene.gltf',
+    //     position: "-2.43157 1.06557 1.859" ,
+    //     scale: '0.09 0.1 0.08',
+    //     rotation: '-0 90 90',
+    // },
+    // {
+    //     id: 'cocacola',
+    //     ruta: './assets/items/item_cocacola/scene.gltf',
+    //     position: '-2.801 0.713 2.077',
+    //     scale: '-0.008 0.005 0.008',
+    //     rotation: '0 90 0',
+    // },
     {
         id: 'shelves',
         ruta: './assets/furniture/furniture_shelves/scene.gltf',
@@ -55,13 +55,13 @@ const itemDecoration = [
         scale: '0.55 0.55 0.55',
         rotation: '0.550 0.550 0.550',
     },
-    {
-        id: 'control',
-        ruta: './assets/items/item_control/scene.gltf',
-        position: '-1.225 0.358 -0.828',
-        scale: '0.13 0.13 0.13',
-        rotation: '0.000 -142 0.000',
-    },
+    // {
+    //     id: 'control',
+    //     ruta: './assets/items/item_control/scene.gltf',
+    //     position: '-1.225 0.358 -0.828',
+    //     scale: '0.13 0.13 0.13',
+    //     rotation: '0.000 -142 0.000',
+    // },
     {
         id: 'maceta',
         ruta: './assets/items/item_maceta/scene.gltf',
@@ -83,12 +83,12 @@ const itemDecoration = [
         scale:  '1.13384 1.06709 1.3',
         rotation: '0 -90 0',
     },
-    {
-        id: 'milka',
-        ruta: './assets/items/item_milka/scene.gltf',
-        position: '-1.163 0.354 -0.174',
-        scale: '0.055 0.13 0.055  ',
-        rotation: '0 0 0',
-    }
+    // {
+    //     id: 'milka',
+    //     ruta: './assets/items/item_milka/scene.gltf',
+    //     position: '-1.163 0.354 -0.174',
+    //     scale: '0.055 0.13 0.055  ',
+    //     rotation: '0 0 0',
+    // }
 ]
 export default itemDecoration
