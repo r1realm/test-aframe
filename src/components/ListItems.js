@@ -5,7 +5,7 @@ import Item from './Item'
 
 function ListItems() {
 
-  const [selected, setSelected] = useState ('magician')
+  const [selected, setSelected] = useState ()
 
   const itemsMap = ItemsInfo.map((e) => {
     return (

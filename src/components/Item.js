@@ -64,7 +64,7 @@ function Item({data, selected, setSelected}){
       /> */}
 
 
-      <MenuChart isOpen={isOpen} data={data}/>
+      <MenuChart isOpen={isOpen} data={data} />
       <BuyMenu isOpen={isOpen}/>
 
       { selected === data.id ? (
@@ -95,6 +95,7 @@ function Item({data, selected, setSelected}){
       width= " 2.42"      />
       </>
       ) : ('')}
+      
       </>
     )
 }

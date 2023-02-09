@@ -3,8 +3,8 @@ import 'aframe'
 import 'aframe-event-set-component'
 
 
-function MenuChart(isOpen, data) {
-
+function MenuChart(isOpen) {
+  console.log(isOpen);
   return (
     <>
         <Entity
@@ -25,7 +25,7 @@ function MenuChart(isOpen, data) {
         '
         position='-2.42 1.404 0.389'
         rotation='0 90 0'
-        visible={isOpen}
+        visible={`'${isOpen}'`}
         />
         <a-text
         id='add' 
@@ -33,7 +33,7 @@ function MenuChart(isOpen, data) {
         position="-2.42 1.404 0.441"
         rotation='0 90 0'
         width='3'
-        visible={isOpen}
+        visible={`'${isOpen}'`}
         />
 
         <Entity
@@ -43,14 +43,14 @@ function MenuChart(isOpen, data) {
         scale='0.065 0.065 0.065'
         position='-2.42 1.404 0.223'
         rotation='0 90 0'
-        visible={isOpen}
+        visible={`'${isOpen}'`}
         />
         <a-text 
         id='rem'
         value='-'
         position='-2.42 1.421 0.276'
         rotation='0 90 0'
-        visible={isOpen}
+        visible={`'${isOpen}'`}
         />
 
         <Entity
@@ -60,7 +60,7 @@ function MenuChart(isOpen, data) {
         scale='0.065 0.065 0.065'
         position='-2.42 1.7 0.234'
         rotation='0 90 0'
-        visible={isOpen}
+        visible={`'${isOpen}'`}
         />
         {/* poner imagen png de carrito */}
         
