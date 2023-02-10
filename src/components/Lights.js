@@ -13,7 +13,7 @@ function Lights() {
       <a-entity light="intensity: 0.1; type: ambient" visible="" id="luzgeneral2"></a-entity>
       <a-entity light="type: spot; angle: 29.48; decay: -1.07; intensity: 0.1" id="ligth-2" rotation="28.6 55 0" position="-1.47278 -0.76451 4.79232"></a-entity>
       <a-entity light="intensity: 0.2; type: spot; shadowCameraVisible: true" id="plantlightt" rotation="-56.77 144.14 0" position="3.41238 7.18529 -7.63275"></a-entity>
-     <a-entity id="bigbiglight-3" light="intensity: 0; shadowCameraVisible: true; type: spot" rotation="" visible=""></a-entity>
+     {/* <a-entity id="bigbiglight-3" light="intensity: 0; shadowCameraVisible: true; type: spot" rotation="" visible=""></a-entity> */}
      <a-entity light="intensity: 0.2" id="newlight" visible=""></a-entity>
      <a-entity light="angle: 42.68; color: #002aff; intensity: 0.3; type: spot" id="thebluelight" rotation="-28.86 265.3 -0.56" position="-1.6256 4.19887 1.35553"></a-entity>
 

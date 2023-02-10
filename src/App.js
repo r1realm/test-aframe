@@ -15,7 +15,7 @@ function App() {
         <ListItems/>
         <ListDecoration/>
         <Ligths />
-      <Entity id="shelvesCam" position="-0.29 -0.20012 2.883" rotation="0 90 0">
+      <Entity id="shelvesCam" position="-0.29 0.1 2.883" rotation="0 90 0">
         <a-camera id="camera"></a-camera>
         <Controls/>
       </Entity>

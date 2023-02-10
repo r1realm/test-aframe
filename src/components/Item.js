@@ -38,10 +38,10 @@ function Item({data, selected, setSelected}){
     let transformedData = transformScale(newScale, 1.05, 1.05, 1.05)
     let dataToString = Object.values(transformedData).join(' ')
     
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState('false')
    
       const handleClick = () => {
-        setIsOpen(!isOpen);
+        setIsOpen(isOpen==='true' ? 'false' : 'true');
         setSelected(data.id)
   };
     return (
@@ -65,11 +65,11 @@ function Item({data, selected, setSelected}){
       /> */}
 
 
-      <MenuChart isOpen={isOpen} data={data} />
       <BuyMenu isOpen={isOpen}/>
 
       { selected === data.id ? (
         <>
+        <MenuChart isOpen={isOpen} data={data} />
       <a-text
       id='title'
       value= {data.name}
